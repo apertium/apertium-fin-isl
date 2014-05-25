@@ -1,0 +1,32 @@
+* text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/TODO -text
+/aclocal.m4 -text
+/apertium-fin-isl.fin-isl.dix -text
+/apertium-fin-isl.fin-isl.lrx -text
+/apertium-fin-isl.fin-isl.rlx -text
+/apertium-fin-isl.fin-isl.t1x -text
+/apertium-fin-isl.fin-isl.t2x -text
+/apertium-fin-isl.fin-isl.t3x -text
+/apertium-fin-isl.isl-fin.lrx -text
+/apertium-fin-isl.isl-fin.rlx -text
+/apertium-fin-isl.isl-fin.t1x -text
+/apertium-fin-isl.isl-fin.t2x -text
+/apertium-fin-isl.isl-fin.t3x -text
+/autogen.sh -text
+/config.status -text
+/configure.ac -text
+dev/debug2dixesandlexces.bash -text
+/fin-isl.mode -text
+/fin-isl.prob -text svneol=unset#unset
+/isl-fin.mode -text
+/isl-fin.prob -text svneol=unset#unset
+/modes.xml -text
+texts/story.fin.txt -text
+texts/undhr.fin.txt -text
