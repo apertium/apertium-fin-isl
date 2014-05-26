@@ -1060,13 +1060,14 @@
     <!-- reflexive -->
     <!--<e><p><l>itse<s n="prn"/><s n="reflex"/></l><r>själv<s n="prn"/></r></p></e>-->
     <!-- interr -->
-    <!--<e><p><l>kuka<s n="prn"/><s n="itg"/></l><r>vem<s n="prn"/></r></p></e>
-    <e><p><l>missä<s n="prn"/></l><r>var<s n="adv"/></r></p></e>
-    <e><p><l>miksi<s n="prn"/><s n="itg"/></l><r>varför<s n="ij"/></r></p></e>
-    <e><p><l>mikä<s n="prn"/></l><r>vad<s n="adv"/><s n="itg"/></r></p></e>
-    <e><p><l>mikään<s n="prn"/></l><r>ingenting<s n="prn"/><s n="ind"/><s n="un"/></r></p></e>
-    <e><p><l>mitä<s n="prn"/></l><r>wad<s n="adv"/></r></p></e>
-    <e><p><l>mitään<s n="prn"/></l><r>ingenting<s n="prn"/><s n="ind"/><s n="un"/></r></p></e>-->
+    <e><p><l>kuka<s n="prn"/></l><r>hver<s n="prn"/></r></p></e>
+    <e><p><l>missä<s n="prn"/></l><r>hvar<s n="adv"/></r></p></e>
+    <e><p><l>missä<s n="adv"/></l><r>hvar<s n="adv"/></r></p></e>
+    <e><p><l>miksi<s n="prn"/></l><r>af<b/>hverju<s n="adv"/></r></p></e>
+    <e><p><l>mikä<s n="prn"/></l><r>hver<s n="adv"/></r></p></e>
+    <e><p><l>mikään<s n="prn"/></l><r>ekkert<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>mitä<s n="prn"/></l><r>hvað<s n="adv"/></r></p></e>
+    <e><p><l>mitään<s n="prn"/></l><r>ekkert<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     
     <!-- pers -->
     <!--<e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/></l>
