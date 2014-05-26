@@ -1090,11 +1090,18 @@
             <r>það<s n="prn"/><s n="p3"/><s n="nt"/></r></p></e>
     
     <!-- demon -->
-    <!--<e><p><l>se<s n="prn"/><s n="dem"/></l>
-            <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></r></p></e>
-    <e><p><l>nämä<s n="prn"/></l><r>denna<s n="prn"/></r></p></e>
-    <e><p><l>ne<s n="prn"/></l><r>de<s n="prn"/></r></p></e>
-    <e><p><l>tämä<s n="prn"/></l><r>dessa<s n="prn"/></r></p></e>-->
+    <e><p><l>se<s n="prn"/><s n="dem"/></l>
+            <r>sá<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="dem"/></l>
+            <r>sá<s n="prn"/><s n="dem"/><s n="f"/></r></p></e>
+    <e><p><l>se<s n="prn"/><s n="dem"/></l>
+            <r>sá<s n="prn"/><s n="dem"/><s n="nt"/></r></p></e>
+    <e><p><l>nämä<s n="prn"/><s n="dem"/></l>
+            <r>þessi<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
+    <e><p><l>ne<s n="prn"/><s n="dem"/></l>
+                <r>sá<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
+    <e><p><l>tämä<s n="prn"/><s n="dem"/></l>
+            <r>þessi<s n="prn"/><s n="dem"/><s n="m"/></r></p></e>
 
     <!-- translating clitics into words kind of works -->
 
@@ -1103,7 +1110,7 @@
     <e><p><l>ka<s n="enc"/></l><r>nei<s n="adv"/></r></p></e>
     <e><p><l>kin<s n="enc"/></l><r>líka<s n="adv"/></r></p></e>
     <e><p><l>kin<s n="enc"/></l><r>jafnframt<s n="adv"/></r></p></e>
-    <e><p><l>s<s n="enc"/></l><r>gjörðu svo vel<s n="ij"/></r></p></e>
+    <e><p><l>s<s n="enc"/></l><r>gjörðu<b/>svo<b/>vel<s n="ij"/></r></p></e>
 
     
 <!-- Раздел: Имя Существительное -->
