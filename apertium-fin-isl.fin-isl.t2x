@@ -69,14 +69,6 @@
       <attr-item tags="px3pl"/>
       <attr-item tags="px3ps"/>
     </def-attr>
-    <def-attr n="a_prs">
-      <attr-item tags="p1.sg"/>
-      <attr-item tags="p2.sg"/>
-      <attr-item tags="p3.sg"/>
-      <attr-item tags="p1.pl"/>
-      <attr-item tags="p2.pl"/>
-      <attr-item tags="p3.pl"/>
-    </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="cond"/>
       <attr-item tags="pot"/>
@@ -200,44 +192,6 @@
           <test><equal><clip pos="1" part="a_poss"/><lit-tag v="px3sp"/></equal></test>
           <let><var n="POSS"/>
                <concat><lit v="^poss"/><lit-tag v="POSS"/><lit v="{^dom"/><lit-tag v="prn.pers.p3.un.pl.gen"/><lit v="$}$ "/></concat>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
-    <def-macro n="insert-prs1" npar="1">
-      <let>
-        <var n="PRS"/>
-        <lit v=""/>
-      </let>
-      <choose>
-        <when>
-          <test><equal><clip pos="1" part="a_prs"/><lit-tag v="p1.sg"/></equal></test>
-          <let><var n="PRS"/>
-               <concat><lit v="^prs"/><lit-tag v="PRS"/><lit v="{^jag"/><lit-tag v="prn.pers.p1.un.sg.nom"/><lit v="$}$ "/></concat>
-          </let>
-        </when>
-        <when>
-          <test><equal><clip pos="1" part="a_prs"/><lit-tag v="p2.sg"/></equal></test>
-          <let><var n="PRS"/>
-               <concat><lit v="^prs"/><lit-tag v="PRS"/><lit v="{^du"/><lit-tag v="prn.pers.p2.un.sg.nom"/><lit v="$}$ "/></concat>
-          </let>
-        </when>
-        <when>
-          <test><equal><clip pos="1" part="a_prs"/><lit-tag v="p1.pl"/></equal></test>
-          <let><var n="PRS"/>
-               <concat><lit v="^prs"/><lit-tag v="PRS"/><lit v="{^vi"/><lit-tag v="prn.pers.p1.un.pl.nom"/><lit v="$}$ "/></concat>
-          </let>
-        </when>
-        <when>
-          <test><equal><clip pos="1" part="a_prs"/><lit-tag v="p2.pl"/></equal></test>
-          <let><var n="PRS"/>
-               <concat><lit v="^prs"/><lit-tag v="PRS"/><lit v="{^ni"/><lit-tag v="prn.pers.p2.un.pl.nom"/><lit v="$}$ "/></concat>
-          </let>
-        </when>
-        <when>
-          <test><equal><clip pos="1" part="a_prs"/><lit-tag v="p3.pl"/></equal></test>
-          <let><var n="PRS"/>
-               <concat><lit v="^prs"/><lit-tag v="PRS"/><lit v="{^de"/><lit-tag v="prn.pers.p3.un.pl.nom"/><lit v="$}$ "/></concat>
           </let>
         </when>
       </choose>
@@ -454,9 +408,6 @@
         <pattern-item n="SV"/>
       </pattern>
       <action>
-        <call-macro n="insert-prs1">
-          <with-param pos="1"/>
-        </call-macro> 
         <call-macro n="insert-aux1">
           <with-param pos="1"/>
         </call-macro> 

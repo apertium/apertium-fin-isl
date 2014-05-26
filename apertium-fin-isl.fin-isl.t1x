@@ -130,6 +130,7 @@
       <attr-item tags="cond"/>
       <attr-item tags="imp"/>
       <attr-item tags="pot"/>
+      <attr-item tags="pri"/>
     </def-attr>
     <def-attr n="a_adv">
         <attr-item tags="adv"/>
@@ -779,9 +780,8 @@
             <clip pos="3" side="tl" part="lem"/> <!-- know --> 
             <clip pos="3" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="3" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="3" side="tl" part="voice"/> <!-- vblex -->
-            <!--<clip pos="1" side="tl" part="person"/> <! p3 > 
-            <clip pos="1" side="tl" part="a_nbr"/> <! sg -->
+            <clip pos="3" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="3" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           </chunk>
         </out>      
@@ -808,7 +808,8 @@
             <clip pos="2" side="tl" part="lem"/> <!-- know --> 
             <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="2" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="2" side="tl" part="a_nbr"/> <!-- sg -->
             <clip pos="2" side="tl" part="lemq"/>
           </lu>
           </chunk>
@@ -896,7 +897,8 @@
             <clip pos="2" side="tl" part="lem"/> <!-- know --> 
             <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="2" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="2" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           <b pos="1"/> <!-- space character between words -->
           <lu>
@@ -947,7 +949,8 @@
             <clip pos="2" side="tl" part="lem"/> <!-- know --> 
             <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="2" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="2" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           <b pos="1"/> <!-- space character between words -->
           <lu>
@@ -989,7 +992,8 @@
             <clip pos="3" side="tl" part="lem"/> <!-- know --> 
             <clip pos="3" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="3" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="3" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="3" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="3" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           <b pos="1"/> <!-- space character between words -->
           <lu>
@@ -1037,7 +1041,8 @@
             <clip pos="2" side="tl" part="lem"/> <!-- know --> 
             <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="2" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="2" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           <b pos="1"/> <!-- space character between words -->
           <lu>
@@ -1064,7 +1069,6 @@
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_verb"/>
               <lit-tag v="pres"/>
-            <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
             </lu>
             <b pos="1"/>
             <lu>
@@ -1094,7 +1098,8 @@
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="1" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="1" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           </chunk>
         </out>      
@@ -1119,7 +1124,8 @@
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="1" side="tl" part="moodtense"/> <!-- past -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex -->
+            <clip pos="1" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="1" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           </chunk>
         </out>      
@@ -1131,21 +1137,6 @@
          <pattern-item n="verb-pres"/>
       </pattern>
       <action>
-        <choose>
-          <when>
-            <test>
-              <or>
-                <equal><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vaux"/></equal>
-                <not><and>
-                   <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                   <equal><clip pos="1" side="tl" part="person"/><lit-tag v="p3"/></equal>
-                </and></not>
-              </or>
-            </test>
-            <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-          </when>
-        </choose>
-     
         <out> 
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1157,7 +1148,8 @@
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex-->
             <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex-->
+            <clip pos="1" side="tl" part="person"/> <!-- p3 --> 
+            <clip pos="1" side="tl" part="a_nbr"/> <!-- sg -->
           </lu>
           </chunk>
         </out>      
@@ -1172,20 +1164,6 @@
         <call-macro n="mood-handler1"> 
           <with-param pos="1"/>
         </call-macro>
-        <choose>
-          <when>
-            <test>
-              <or>
-                <equal><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vaux"/></equal>
-                <not><and>
-                   <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal>
-                   <equal><clip pos="1" side="tl" part="person"/><lit-tag v="p3"/></equal>
-                </and></not>
-              </or>
-            </test>
-            <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-          </when>
-        </choose>
      
         <out> 
           <chunk name="v" case="caseFirstWord">
@@ -1199,7 +1177,6 @@
             <clip pos="1" side="tl" part="lem"/> <!-- know --> 
             <clip pos="1" side="tl" part="a_verb"/> <!-- vblex -->
             <clip pos="1" side="tl" part="moodtense"/> <!-- pres -->
-            <clip pos="1" side="tl" part="voice"/> <!-- vblex -->
           </lu>
           </chunk>
         </out>      
@@ -1284,7 +1261,6 @@
                 <clip pos="2" side="tl" part="lem"/>
                 <clip pos="2" side="tl" part="a_verb"/> <!-- vblex -->
                 <clip pos="2" side="tl" part="moodtense"/> <!-- pres -->
-                <clip pos="2" side="tl" part="voice"/> <!-- vblex -->
             </lu>
           </chunk>
         </out>
@@ -1356,7 +1332,6 @@
                 <lit v="måsta"/>
                 <lit-tag v="vaux"/>
                 <clip pos="2" side="tl" part="moodtense"/>
-                <clip pos="2" side="tl" part="voice"/>
             </lu>
           </chunk>
         </out>

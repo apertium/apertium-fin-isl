@@ -56,6 +56,7 @@
     <sdef n="pl"    c="plural"/>
     <sdef n="un"    c="undecided"/>
     <sdef n="pst"    c="not past"/>
+    <sdef n="pri"    c="present imperfect"/>
     <sdef n="card"    c="ID"/>
 
   </sdefs>
@@ -775,7 +776,7 @@
     <e><p><l>nauraa<s n="vblex"/></l><r>hlæja<s n="vblex"/></r></p></e>
     <e><p><l>nukkua<s n="vblex"/></l><r>sofa<s n="vblex"/></r></p></e>
     <e><p><l>nähdä<s n="vblex"/></l><r>sjá<s n="vblex"/></r></p></e>
-    <e><p><l>olla<s n="vblex"/></l><r>vera<s n="vbser"/></r></p></e>
+    <e><p><l>olla<s n="vblex"/></l><r>vera<s n="vbser"/><s n="pri"/></r></p></e>
     <e><p><l>osata<s n="vblex"/></l><r>geta<s n="vbmod"/></r></p></e>
     <e><p><l>osata<s n="vblex"/></l><r>kunna<s n="vbmod"/></r></p></e>
     <e><p><l>pitää<s n="vblex"/></l><r>halda<s n="vblex"/></r></p></e>
