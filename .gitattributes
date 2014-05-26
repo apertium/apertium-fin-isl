@@ -22,6 +22,7 @@
 /autogen.sh -text
 /config.status -text
 /configure.ac -text
+dev/cross.bash -text
 dev/debug2dixesandlexces.bash -text
 /fin-isl.mode -text
 /fin-isl.prob -text svneol=unset#unset
