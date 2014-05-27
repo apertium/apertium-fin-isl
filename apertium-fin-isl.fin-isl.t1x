@@ -198,6 +198,7 @@
       <attr-item tags="com"/>
       <attr-item tags="ess"/>
       <attr-item tags="par"/>
+      <attr-item tags="dat"/>
     </def-attr>
     <def-attr n="a_poss">
         <attr-item tags="px1sg"/>
@@ -340,7 +341,7 @@
                 <equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ess"/></equal>
         </or></test>
 
-              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
+              <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="dat"/></let>
               <let><var n="sntype"/><lit-tag v="SN"/></let>
             </when>
             <when>
