@@ -854,12 +854,13 @@
             </tags>
             <lu>
                 <clip pos="1" side="tl" part="lem"/>
-                <lit-tag v="vblex.inf.actv"/>
+                <lit-tag v="vblex.actv.inf"/>
             </lu>
           </chunk>
         </out>      
       </action>
-    </rule>
+  </rule>
+
     <rule comment="REGLA: neg-verb conneg just-inf">
       <pattern>
          <pattern-item n="neg-verb"/>
@@ -904,13 +905,13 @@
           </lu>
           <b pos="1"/> <!-- space character between words -->
           <lu>
-            <lit v="inte"/> <!-- not -->
+            <lit v="ekki"/> <!-- not -->
             <lit-tag v="adv"/> <!-- adv -->
           </lu>
           <b pos="2"/>
             <lu>
                 <clip pos="3" side="tl" part="lem"/>
-                <lit-tag v="vblex.inf.actv"/>
+                <lit-tag v="vblex.actv.inf"/>
             </lu>
           </chunk>
         </out>      

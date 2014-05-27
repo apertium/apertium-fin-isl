@@ -30,4 +30,5 @@ dev/debug2dixesandlexces.bash -text
 /isl-fin.prob -text svneol=unset#unset
 /modes.xml -text
 texts/story.fin.txt -text
+texts/story.isl.txt -text
 texts/undhr.fin.txt -text

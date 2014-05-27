@@ -791,7 +791,7 @@
     <e><p><l>osata<s n="vblex"/></l><r>geta<s n="vbmod"/></r></p></e>
     <e><p><l>osata<s n="vblex"/></l><r>kunna<s n="vbmod"/></r></p></e>
     <e><p><l>pitää<s n="vblex"/></l><r>halda<s n="vblex"/></r></p></e>
-    <e><p><l>pitää<s n="vblex"/></l><r>tycka<s n="vblex"/></r></p></e>
+    <e><p><l>pitää<s n="vblex"/></l><r>líka<s n="vblex"/></r></p></e>
     <e><p><l>puhua<s n="vblex"/></l><r>tala<s n="vblex"/></r></p></e>
     <e><p><l>pystyä<s n="vblex"/></l><r>geta<s n="vbmod"/></r></p></e>
     <e><p><l>pystyä<s n="vblex"/></l><r>kunna<s n="vbmod"/></r></p></e>
@@ -812,7 +812,7 @@
 
     <!-- adjectives -->
     
-    <e><p><l>hyvä<s n="adj"/></l><r>goður<s n="adj"/></r></p></e>
+    <e><p><l>hyvä<s n="adj"/></l><r>góður<s n="adj"/><s n="pst"/><s n="nt"/></r></p></e>
     <e><p><l>iloinen<s n="adj"/></l><r>hamingjusamur<s n="adj"/></r></p></e>
     <e><p><l>iso<s n="adj"/></l><r>stór<s n="adj"/></r></p></e>
     <e><p><l>kylmä<s n="adj"/></l><r>kaldur<s n="adj"/></r></p></e>
