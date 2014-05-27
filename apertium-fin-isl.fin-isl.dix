@@ -13,6 +13,7 @@
     <sdef n="vbhaver"  c="Глагол"/>
     <sdef n="enc"  c=""/>
     <sdef n="ij"  c=""/>
+    <sdef n="preadv"  c="ccomes before Наречие"/>
     <sdef n="adv"  c="Наречие"/>
     <sdef n="sint"  c="-ø -er -est"/>
     <sdef n="vbmod"  c="Глагол 'быть'"/>
@@ -405,6 +406,7 @@
     <e><p><l>laskeminen<s n="n"/></l><r>talning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lasku<s n="n"/></l><r>reikningur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>lasku<s n="n"/></l><r>talning<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>leikki<s n="n"/></l><r>leikur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>leikkaus<s n="n"/></l><r>sár<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lelu<s n="n"/></l><r>leikfang<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>lento<s n="n"/></l><r>flug<s n="n"/><s n="nt"/></r></p></e>
@@ -547,8 +549,12 @@
     <e><p><l>puolustaja<s n="n"/></l><r>talsmaður<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>puolustus<s n="n"/></l><r>vörn<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pusakka<s n="n"/></l><r>jakki<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>puu<s n="n"/></l><r>tré<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>puutarha<s n="n"/></l><r>garður<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>päivämäärä<s n="n"/></l><r>dagsetning<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pää<s n="n"/></l><r>höfuð<s n="n"/><s n="n"/></r></p></e>
     <e><p><l>päätös<s n="n"/></l><r>ákvörðun<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pöytä<s n="n"/></l><r>borð<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>radiointi<s n="n"/></l><r>útvarp<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>rahasto<s n="n"/></l><r>sjóður<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rakenne<s n="n"/></l><r>formgerð<s n="n"/><s n="f"/></r></p></e>
@@ -613,6 +619,7 @@
     <e><p><l>taistelu<s n="n"/></l><r>bardagi<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>taistelu<s n="n"/></l><r>orrusta<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>takaisinmaksu<s n="n"/></l><r>endurgreiðsla<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>talo<s n="n"/></l><r>hús<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>talvi<s n="n"/></l><r>vetur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tapahtuma<s n="n"/></l><r>atburður<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>tapahtuma<s n="n"/></l><r>viðburður<s n="n"/><s n="m"/></r></p></e>
@@ -717,6 +724,7 @@
     <e><p><l>verkosto<s n="n"/></l><r>netkerfi<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vero<s n="n"/></l><r>skattur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>versio<s n="n"/></l><r>útgáfa<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>vesi<s n="n"/></l><r>vatn<s n="n"/><s n="n"/></r></p></e>
     <e><p><l>vierailu<s n="n"/></l><r>heimsókn<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>viihde<s n="n"/></l><r>skemmtun<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>viikko<s n="n"/></l><r>vika<s n="n"/><s n="f"/></r></p></e>
@@ -732,6 +740,7 @@
     <e><p><l>voitto<s n="n"/></l><r>sigur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>volyymi<s n="n"/></l><r>árgangur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>volyymi<s n="n"/></l><r>bindi<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vuosi<s n="n"/></l><r>ár<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>väri<s n="n"/></l><r>litur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>yhdistelmä<s n="n"/></l><r>samsetning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>yksikkö<s n="n"/></l><r>eining<s n="n"/><s n="f"/></r></p></e>
@@ -761,6 +770,8 @@
     <e><p><l>ei<s n="vblex"/></l><r>ekki<s n="adv"/></r></p></e>
     <e><p><l>etsiä<s n="vblex"/></l><r>sækja<s n="vblex"/></r></p></e>
     <e><p><l>istua<s n="vblex"/></l><r>sitja<s n="vblex"/></r></p></e>
+    <e><p><l>haluta<s n="vblex"/></l><r>vilja<s n="vblex"/></r></p></e>
+    <e><p><l>juosta<s n="vblex"/></l><r>hlaupa<s n="vblex"/></r></p></e>
     <e><p><l>juoda<s n="vblex"/></l><r>drekka<s n="vblex"/></r></p></e>
     <e><p><l>katsoa<s n="vblex"/></l><r>sjá<s n="vblex"/></r></p></e>
     <e><p><l>kertoa<s n="vblex"/></l><r>segja<s n="vblex"/></r></p></e>
@@ -862,6 +873,7 @@
     <e><p><l>joko<s n="cnjcoo"/></l><r>eða<s n="cnjcoo"/></r></p></e>
     <e><p><l>joko<s n="cnjcoo"/></l><r>né<s n="cnjcoo"/></r></p></e>
     <e><p><l>jos<s n="cnjsub"/></l><r>hvort<s n="cnjsub"/></r></p></e>
+    <e><p><l>kun<s n="cnjsub"/></l><r>þegar<s n="cnjsub"/></r></p></e>
     <e><p><l>koska<s n="cnjsub"/></l><r>af því að<s n="cnjsub"/></r></p></e>
     <e><p><l>mut<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
     <e><p><l>mutta<s n="cnjcoo"/></l><r>en<s n="cnjcoo"/></r></p></e>
@@ -889,11 +901,13 @@
     <e><p><l>alhaalla<s n="adv"/></l><r>oní<s n="adv"/></r></p></e>
     <e><p><l>edelleen<s n="adv"/></l><r>áfram<s n="adv"/></r></p></e>
     <e><p><l>edelleen<s n="adv"/></l><r>framundan<s n="adv"/></r></p></e>
+    <e><p><l>eilen<s n="adv"/></l><r>í<b/>gær<s n="adv"/></r></p></e>
     <e><p><l>ehkä<s n="adv"/></l><r>kannski<s n="adv"/></r></p></e>
     <e><p><l>ennen<s n="adv"/></l><r>áður<s n="adv"/></r></p></e>
     <e><p><l>ensimmäisenä<s n="adv"/></l><r>fyrst<s n="adv"/></r></p></e>
     <e><p><l>ensimmäisenä<s n="adv"/></l><r>í fyrstu<s n="adv"/></r></p></e>
     <e><p><l>entä<s n="adv"/></l><r>og<s n="cnjcoo"/></r></p></e>
+    <e><p><l>erittäin<s n="adv"/></l><r>mjög<s n="preadv"/></r></p></e>
     <e><p><l>esimerkiksi<s n="adv"/></l><r>til dæmis<s n="adv"/></r></p></e>
     <e><p><l>helposti<s n="adv"/></l><r>auðveldlega<s n="adv"/></r></p></e>
     <e><p><l>helposti<s n="adv"/></l><r>létt<s n="adv"/></r></p></e>
@@ -902,6 +916,7 @@
     <e><p><l>huolellisesti<s n="adv"/></l><r>mjúklega<s n="adv"/></r></p></e>
     <e><p><l>huolellisesti<s n="adv"/></l><r>varlega<s n="adv"/></r></p></e>
     <e><p><l>huolimatta<s n="adv"/></l><r>engu að síður<s n="adv"/></r></p></e>
+    <e><p><l>huomenna<s n="adv"/></l><r>á<b/>morgun<s n="adv"/></r></p></e>
     <e><p><l>ikuisesti<s n="adv"/></l><r>alltaf<s n="adv"/></r></p></e>
     <e><p><l>jossain määrin<s n="adv"/></l><r>dálítið<s n="adv"/></r></p></e>
     <e><p><l>jossain määrin<s n="adv"/></l><r>lítið<s n="adv"/></r></p></e>
@@ -912,8 +927,8 @@
     <e><p><l>jossain määrin<s n="adv"/></l><r>örlítið<s n="adv"/></r></p></e>
     <e><p><l>juuri<s n="adv"/></l><r>einmitt<s n="adv"/></r></p></e>
     <e><p><l>juuri<s n="adv"/></l><r>nákvæmlega<s n="adv"/></r></p></e>
-    <e><p><l>kin<s n="enc"/></l><r>jafnframt<s n="adv"/></r></p></e>
-    <e><p><l>kin<s n="enc"/></l><r>líka<s n="adv"/></r></p></e>
+    <e><p><l>kahden<s n="adv"/></l><r>saman<s n="adv"/></r></p></e>
+    <e><p><l>kaikkialle<s n="adv"/></l><r>allstaðar<s n="adv"/></r></p></e>
     <e><p><l>koskaan<s n="adv"/></l><r>aldrei<s n="adv"/></r></p></e>
     <e><p><l>kotiin<s n="adv"/></l><r>heim<s n="adv"/></r></p></e>
     <e><p><l>kotoa<s n="adv"/></l><r>að heiman<s n="adv"/></r></p></e>
@@ -929,6 +944,7 @@
     <e><p><l>lähemmäksi<s n="adv"/></l><r>nærri<s n="adv"/></r></p></e>
     <e><p><l>lähestulkoon<s n="adv"/></l><r>næstum<s n="adv"/></r></p></e>
     <e><p><l>lähestulkoon<s n="adv"/></l><r>tæplega<s n="adv"/></r></p></e>
+    <e><p><l>minne<s n="adv"/></l><r>hvar<s n="adv"/></r></p></e>
     <e><p><l>melkein<s n="adv"/></l><r>næstum<s n="adv"/></r></p></e>
     <e><p><l>melkein<s n="adv"/></l><r>tæplega<s n="adv"/></r></p></e>
     <e><p><l>mieluummin<s n="adv"/></l><r>þvert á móti<s n="adv"/></r></p></e>
@@ -997,9 +1013,11 @@
     <e><p><l>tosiaan<s n="adv"/></l><r>raunverulega<s n="adv"/></r></p></e>
     <e><p><l>tosiaan<s n="adv"/></l><r>sannarlega<s n="adv"/></r></p></e>
     <e><p><l>tosiaan<s n="adv"/></l><r>virkilega<s n="adv"/></r></p></e>
+    <e><p><l>tänään<s n="adv"/></l><r>í<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>täysin<s n="adv"/></l><r>gersamlega<s n="adv"/></r></p></e>
     <e><p><l>täällä<s n="adv"/></l><r>hérna<s n="adv"/></r></p></e>
     <e><p><l>täällä<s n="adv"/></l><r>hér<s n="adv"/></r></p></e>
+    <e><p><l>ulkona<s n="adv"/></l><r>út<s n="adv"/></r></p></e>
     <e><p><l>usein<s n="adv"/></l><r>oft<s n="adv"/></r></p></e>
     <e><p><l>vain<s n="adv"/></l><r>bara<s n="adv"/></r></p></e>
     <e><p><l>varmasti<s n="adv"/></l><r>örugglega<s n="adv"/></r></p></e>
@@ -1016,6 +1034,7 @@
     <e><p><l>välittömästi<s n="adv"/></l><r>samstundis<s n="adv"/></r></p></e>
     <e><p><l>välittömästi<s n="adv"/></l><r>umsvifalaust<s n="adv"/></r></p></e>
     <e><p><l>yhtäkkiä<s n="adv"/></l><r>skyndilega<s n="adv"/></r></p></e>
+    <e><p><l>yhdessä<s n="adv"/></l><r>saman<s n="adv"/></r></p></e>
     <e><p><l>yhä<s n="adv"/></l><r>ennþá<s n="adv"/></r></p></e>
     <e><p><l>ylös<s n="adv"/></l><r>upp<s n="adv"/></r></p></e>
     <e><p><l>ympäri<s n="adv"/></l><r>kringum<s n="adv"/></r></p></e>
@@ -1030,9 +1049,9 @@
 
     <!-- pronouns -->
     <!-- all sorts of stuff -->
+    <e><p><l>jokin<s n="prn"/></l><r>eitthvað<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <!--<e><p><l>jokainen<s n="prn"/></l><r>varje<s n="prn"/></r></p></e>
     <e><p><l>joka<s n="prn"/></l><r>som<s n="prn"/></r></p></e>
-    <e><p><l>jokin<s n="prn"/></l><r>någonting<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <e><p><l>kaikki<s n="prn"/></l><r>alla<s n="prn"/></r></p></e>
     <e><p><l>molemmat<s n="prn"/></l><r>båda<s n="prn"/><s n="def"/><s n="un"/></r></p></e>
     <e><p><l>muu<s n="prn"/></l><r>andra<s n="prn"/><s n="ind"/><s n="un"/></r></p></e>
@@ -1068,6 +1087,7 @@
     <e><p><l>mikään<s n="prn"/></l><r>ekkert<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
     <e><p><l>mitä<s n="prn"/></l><r>hvað<s n="adv"/></r></p></e>
     <e><p><l>mitään<s n="prn"/></l><r>ekkert<s n="prn"/><s n="ind"/><s n="nt"/></r></p></e>
+    <e><p><l>mitä<s n="adv"/></l><r>hver<s n="adv"/></r></p></e>
     
     <!-- pers -->
     <e><p><l>minä<s n="prn"/><s n="pers"/><s n="p1"/></l>
@@ -1105,11 +1125,9 @@
 
     <!-- translating clitics into words kind of works -->
 
-    <e><p><l>kin<s n="enc"/></l><r>líka<s n="adv"/></r></p></e>
-    <e><p><l>kin<s n="enc"/></l><r>jafnframt<s n="adv"/></r></p></e>
     <e><p><l>ka<s n="enc"/></l><r>nei<s n="adv"/></r></p></e>
-    <e><p><l>kin<s n="enc"/></l><r>líka<s n="adv"/></r></p></e>
     <e><p><l>kin<s n="enc"/></l><r>jafnframt<s n="adv"/></r></p></e>
+    <e><p><l>kin<s n="enc"/></l><r>líka<s n="adv"/></r></p></e>
     <e><p><l>s<s n="enc"/></l><r>gjörðu<b/>svo<b/>vel<s n="ij"/></r></p></e>
 
     
