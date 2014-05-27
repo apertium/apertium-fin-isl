@@ -139,8 +139,10 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
-      <attr-item tags="n.ut"/>
+      <attr-item tags="n.m"/>
+      <attr-item tags="n.f"/>
       <attr-item tags="n.nt"/>
+      <attr-item tags="n.mf"/>
       <attr-item tags="vblex.subst"/>
       <attr-item tags="np"/>
       <attr-item tags="np.ant"/>
@@ -465,8 +467,8 @@
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <clip pos="1" side="tl" part="a_nbr"/>
-              <var n="definiteness"/>
               <clip pos="1" side="tl" part="a_cas"/>
+              <var n="definiteness"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
