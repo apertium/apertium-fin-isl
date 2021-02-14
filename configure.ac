@@ -1,36 +1,31 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-fin-isl], [0.0.0], [flammie@iki.fi])
+AC_INIT([Apertium Finnish-Icelandic], [0.1.0], [popcorn.tomato.dude@gmail.com], [apertium-fin-isl], [http://wiki.apertium.org/wiki/Apertium-fin-isl])
 AM_INIT_AUTOMAKE
-AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.2.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-                          
+PKG_CHECK_MODULES(APERTIUM, apertium >= 3.6.1)
+PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.1)
 
-AC_PATH_PROG([LTPRINT], [lt-print], [no])
-AS_IF([test x$ac_cv_path_LTPRINT = x], 
-      [AC_MSG_ERROR([You do not have lt-print installed.])])
-AS_IF([test x$ac_cv_path_LTPRINT = xno,],
-      [AC_MSG_ERROR([You do not have lt-print installed.])])
 
-AC_PATH_PROG(CGCOMP, cg-comp, no)
-AS_IF([test x$ac_cv_path_CGCOMP = x],
-      [AC_MSG_ERROR([You do not have cg-comp installed.])])
-AS_IF([test x$ac_cv_path_CGPROC = xno],
-      [AC_MSG_ERROR([You do not have cg-comp installed.])])
+PKG_CHECK_MODULES(HFST, hfst >= 3.15.1)
 
-AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
-AS_IF([test x$ac_cv_path_PKG_CONFIG = x],
-      [AC_MSG_ERROR([You do not have pkg-config installed.])])
-AS_IF([test x$ac_cv_path_PKG_CONFIG = xno],
-      [AC_MSG_ERROR([You do not have pkg-config installed.])])
+PKG_CHECK_MODULES(CG3, cg3 >= 1.3.1)
+PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.3)
+
+
+
+
+AC_PATH_PROGS(ZCAT, [gzcat zcat], [false])
+AS_IF([test x$ZCAT = xfalse], [AC_MSG_ERROR([You don't have zcat nor gzcat installed])])
 
 m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
+
 AP_CHECK_LING([1], [apertium-fin])
+
 AP_CHECK_LING([2], [apertium-isl])
 
-AC_OUTPUT([Makefile])
+AP_MKINCLUDE
 
+AC_OUTPUT([Makefile])
