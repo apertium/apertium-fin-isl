@@ -1,0 +1,10 @@
+[15YpNAtv2p1J#0] ^≤<sym>$
+[/15YpNAtv2p1J]
+[djZdanoqfeG5#0] ^β-<n><cmp>+WADA<np><org><acr><pl><nom>+pa<enc>+han<enc>$
+[/djZdanoqfeG5]
+[fwjhtIL6aRcp#0] ^η5-syklopentadienyyli<n><pl><nom><px1sg>+pa<enc>$
+[/fwjhtIL6aRcp]
+[jTP1IKPEzvgN#0] ^`<punct>$
+[/jTP1IKPEzvgN]
+[wvR24FJaqMzH#0] ^ó<n><cmp>+î<n><sg><nom>$
+[/wvR24FJaqMzH]

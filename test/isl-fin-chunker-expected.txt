@@ -1,0 +1,14 @@
+[2gaEYfvMssku#0] ^default<default>{^@59°C<num>$}$
+[/2gaEYfvMssku]
+[Obpssw6Tl8Tc#0] ^default<default>{^@ætla<vblex><pri><p2><sg>$}$ ^default<default>{^sinä<prn><pers><p2><sg><nom>$}$
+[/Obpssw6Tl8Tc]
+[Sw2FqI3Qtp3H#0] ^unknown<unknown>{^*migaasab$}$^sent<SENT>{^.<sent>$}$^default<default>{^@s<n><nt><sg><nom><ind>$}$
+[/Sw2FqI3Qtp3H]
+[Uqb0R4RxbJgd#0] ^default<default>{^@99592,19%<num>$}$
+[/Uqb0R4RxbJgd]
+[b_L1AdLWjoDO#0] ^default<default>{^saada<vblex><pri><p2><sg>$}$ ^default<default>{^sinä<prn><pers><p2><sg><nom>$}$
+[/b_L1AdLWjoDO]
+[tpcRMTtp2w5j#0] ^default<default>{^olla<vblex><p2><sg>$}$ ^default<default>{^sinä<prn><pers><p2><sg><nom>$}$
+[/tpcRMTtp2w5j]
+[u3IIvJtdfATx#0] ^sent<SENT>{^!<sent>$}$
+[/u3IIvJtdfATx]

@@ -1,0 +1,10 @@
+[15YpNAtv2p1J#0] ^≤/≤<sym>/≤<sym><sg><nom>$
+[/15YpNAtv2p1J]
+[djZdanoqfeG5#0] ^β-WADAtpahan/β-<n><cmp>+WADA<np><org><acr><pl><nom>+pa<enc>+han<enc>$
+[/djZdanoqfeG5]
+[fwjhtIL6aRcp#0] ^η5-syklopentadienyylinipä/η5-syklopentadienyyli<n><pl><nom><px1sg>+pa<enc>/η5-syklopentadienyyli<n><sg><gen><px1sg>+pa<enc>/η5-syklopentadienyyli<n><sg><nom><px1sg>+pa<enc>$
+[/fwjhtIL6aRcp]
+[jTP1IKPEzvgN#0] ^`/`<punct>/`<sym>/`<sym><sg><nom>$
+[/jTP1IKPEzvgN]
+[wvR24FJaqMzH#0] ^ó-î/ó<n><cmp>+î<n><sg><nom>$
+[/wvR24FJaqMzH]

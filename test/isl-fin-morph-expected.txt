@@ -1,0 +1,14 @@
+[2gaEYfvMssku#0] ^59°C/59°C<num>$
+[/2gaEYfvMssku]
+[Obpssw6Tl8Tc#0] ^ætlarðu/ætla<vblex><pri><p2><sg>+þú<prn><p2><mf><sg><nom>$
+[/Obpssw6Tl8Tc]
+[Sw2FqI3Qtp3H#0] ^migaasab/*migaasab$^./.<sent>$^s/s<n><nt><sg><nom><ind>/s<n><nt><sg><acc><ind>/s<n><nt><sg><dat><ind>/s<n><nt><sg><gen><ind>$
+[/Sw2FqI3Qtp3H]
+[Uqb0R4RxbJgd#0] ^99592,19%/99592,19%<num>$
+[/Uqb0R4RxbJgd]
+[b_L1AdLWjoDO#0] ^hefurðu/hafa<vbhaver><pri><p2><sg>+þú<prn><p2><mf><sg><nom>$
+[/b_L1AdLWjoDO]
+[tpcRMTtp2w5j#0] ^ertu/vera<vbser><pri><p2><sg>+þú<prn><p2><mf><sg><nom>$
+[/tpcRMTtp2w5j]
+[u3IIvJtdfATx#0] ^!/!<sent>$
+[/u3IIvJtdfATx]

@@ -65,11 +65,8 @@
         <file name="apertium-fin-isl.isl-fin.t3x"/>
         <file name="isl-fin.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
-        <file name="isl-fin.autogen.bin"/>
-      </program>
-      <program name="lt-proc -p">
-        <file name="isl-fin.autopgen.bin"/>
+      <program name="hfst-proc $1">
+        <file name="isl-fin.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>

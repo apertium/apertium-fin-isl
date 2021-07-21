@@ -1,0 +1,10 @@
+[15YpNAtv2p1J#0] ^default<default>{^@≤<sym>$}$
+[/15YpNAtv2p1J]
+[djZdanoqfeG5#0] ^n{^@β-<n><ind>$}$ ^n<nom>{^@WADA<np><pl><nom>$}$ ^default<default>{^@pa<enc>$}$ ^default<default>{^@han<enc>$}$
+[/djZdanoqfeG5]
+[fwjhtIL6aRcp#0] ^n<nom><px1sg>{^@η5-syklopentadienyyli<n><pl><nom><ind>$}$ ^default<default>{^@pa<enc>$}$
+[/fwjhtIL6aRcp]
+[jTP1IKPEzvgN#0] ^default<default>{^@`<punct>$}$
+[/jTP1IKPEzvgN]
+[wvR24FJaqMzH#0] ^n{^@ó<n><ind>$}$ ^n<nom>{^@î<n><sg><nom><ind>$}$
+[/wvR24FJaqMzH]

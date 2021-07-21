@@ -1,0 +1,10 @@
+{
+    "fin-isl": {
+        "input": "fin-isl-input.txt",
+        "mode": "fin-isl"
+    },
+    "isl-fin": {
+        "input": "isl-fin-input.txt",
+        "mode": "isl-fin"
+    }
+}
